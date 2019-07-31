@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+	<test name="testNgTest">
+		<groups>
+			<dependencies>
+				<group name="FirstGroup" depends-on="SecondGroup" />
+			</dependencies>
+		</groups>
+
+		<classes>
+
+			<class name="testNG.DependsOnMethodTestCase1" />
+
+		</classes>
+	</test>
+</suite> 
+ 
